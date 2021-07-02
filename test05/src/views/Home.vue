@@ -1,5 +1,8 @@
 <template>
  <img v-bind:src="logo">
+ <textarea v-model="msg"></textarea>
+ <input type="text" v-model="txt1">
+ <button v-bind:disabled="txt1==''">조회</button>
  <div><img v-bind:src="main"></div>
  <div v-html="htmlString0"></div>
  <div v-html="htmlString1"></div>
@@ -17,6 +20,8 @@ export default {
     htmlString1:"<p>Cuteness Overload</p>",
     pink:"https://i.shgcdn.com/8cc96055-9d7e-4c90-acc3-42b2d15ca9c8/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
     yellow:"https://i.shgcdn.com/f59dc46f-2d28-4990-84a3-e7be636a925c/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
+    msg:"여러 줄을 입력할 수 있는 텍스트 에리아 테스트박스당~!",
+    txt1:"",
     };
   },
   setup() {},

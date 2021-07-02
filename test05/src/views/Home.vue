@@ -1,7 +1,8 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <img alt="Vue logo" src="https://cdn.shopify.com/s/files/1/0231/6137/2752/files/logo_410x.jpg?v=1573431073" />
+    <HelloWorld msg="New Collections" />
+    
   </div>
 </template>
 

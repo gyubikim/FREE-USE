@@ -17,5 +17,5 @@ export default {
   }
 }
 
-consol.log(알겠습니다);
+
 </script>
